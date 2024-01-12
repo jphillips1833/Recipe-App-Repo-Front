@@ -1,9 +1,11 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import InventoryForm from "./components/InventoryForm";
 
 function App() {
   return (
     <div className="App">
-      <p>hello recipe app</p>
+      <InventoryForm />
     </div>
   );
 }
